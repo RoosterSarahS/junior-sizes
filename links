@@ -102,12 +102,6 @@
 {% elsif current_product_sku == "145656" %} <!-junior supertherm lj 24  -!>
   <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/106827">Click Here</a></strong></p>
 
-{% elsif current_product_sku == "132480" %} <!-Thermaflex full  -!>
-  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/132479">Click Here</a></strong></p>
-
-{% elsif current_product_sku == "132479" %} <!-junior thermaflexfull  -!>
-  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/106813">Click Here</a></strong></p>
-
 {% elsif current_product_sku == "140034" %} <!-thermaflexlegs -!>
   <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/140040">Click Here</a></strong></p>
 
