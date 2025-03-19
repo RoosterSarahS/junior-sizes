@@ -1,0 +1,306 @@
+{% assign current_product_sku = product.variants.first.sku %}
+
+{% if current_product_sku == "127983" %} <!-ProHike-!> 
+  <p><strong> Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/128606"> Click Here</a></strong></p>
+
+{% elsif current_product_sku == "128606" %} <!- Junior ProHike -!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/105330">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "133800" %} <!-Thermaflex Longjohns 24 -!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/107492">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "133805" %} <!- Junior Thermaflex Longjohn -!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/107925">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "133224" %} <!- Thermaflex Top 24 -!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/107924">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "133230" %} <!- Junior Thermaflex Top 24 -!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/107153">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "132864" %} <!-PolyPro Leggings-!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/106975">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "132862" %} <!- Junior PolyPro Legging -!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/107055">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "132870" %} <!- PolyPro Top -!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/106619">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "127737" %} <!- Junior PolyPro Top -!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/106619">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "143066" %} <!- Hot Legs  -!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/143075">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "143076" %} <!- Junior Hot Legs -!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/143063">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "143059" %} <!- Hot Top -!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/143078">Click Here</a></strong></p
+
+{% elsif current_product_sku == "143079" %} <!-Junior Hot Top -!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/143058">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "131161" %} <!-PolyPro Glove Liner-!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/131160">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "131160" %} <!-Junior PolyPro Glove Liner-!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/131160">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "128857" %} <!- Hot Hands -!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/106623">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "128854" %} <!- Junior Hot Hands -!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/105322">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "129044" %} <!- Polypro Socks -!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/129048">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "129048" %} <!-Junior Polypro sock -!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/105312">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "129382" %} <!- TF Wetsocks -!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/129381">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "129381" %} <!- Junior TF Wetsock -!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/105342">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "132498" %} <!-Supertherm WetSocks-!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/132502">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "132502" %} <!-Junior Supertherm wetsocks -!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/132502">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "130092" %} <!- Rash Top -!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/106636">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "130091" %} <!-Junior Rash Top -!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/105306">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "140044" %} <!-Pro Rash Legs -!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/140047">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "140049" %} <!- Junior Pro RashLegs -!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/140043">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "132035" %} <!- Rash Leggings -!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/132037">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "132037" %} <!- Junior Rash leggings -!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/106654">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "143539" %} <!-Quick Dry UVF-!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/107533">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "143547" %} <!-junior Quick dry UVF-!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/107237">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "132525" %} <!-Supertherm LJ 24  -!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/106828">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "145656" %} <!-junior supertherm lj 24  -!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/106827">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "132480" %} <!-Thermaflex full  -!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/132479">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "132479" %} <!-junior thermaflexfull  -!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/106813">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "140034" %} <!-thermaflexlegs -!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/140040">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "140042" %} <!-junior thermaflex legs -!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/140033">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "133993" %} <!-supertherm longj23  -!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/107922">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "133991" %} <!-junior superthermlongJ23-!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/107584">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "134000" %} <!-supertherm top23 -!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/107923">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "133998" %} <!-junior superthermtop23-!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/107585">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "131877" %} <!-Prohikers -!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/139957">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "131875" %} <!-JuniorproHikers-!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/106476">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "133083" %} <!-ClassicHikers-!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/106626">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "133080" %} <!-Junior classic hikers-!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/105329">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "140025" %} <!- race armour shorts -!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/140032">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "140032" %} <!-junior race armur  -!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/140024">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "132313" %} <!-wear protection-!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/106756">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "132311" %} <!-junior wear protection -!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/106750">Click Here</a></strong></p>
+{% elsif current_product_sku == "132016" %} <!-Pro hikers nopads-!>
+
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/139959">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "132014" %} <!-juniorpro hike nopads-!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/106643">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "146018" %} <!-hood UVF-!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/146024">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "146034" %} <!-junior hooded uvf-!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/145995">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "134628" %} <!-Lightweight spraytop-!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/139965">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "139667" %} <!-junior lightweight spraytop-!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/107936">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "132917" %} <!-superlite jack -!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/132918">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "132918" %} <!- junior superlite -!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/107010">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "130047" %} <!-prolite aquafleece  -!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/106609">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "143018" %} <!-junior prolite aquafleece  -!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/105741">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "132093" %} <!-junior soft shell jacket -!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/107106">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "140746" %} <!-junior softshell  -!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/106684">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "129074" %} <!-proaquafleece top-!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/106607">Click Here</a></strong></p>
+{% elsif current_product_sku == "129070" %} <!-junior pro aquafleece top-!>
+
+  <p><strong>Adult Size alternatives Available: <a href="https://www.roostersailing.com/products/105303">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "127540" %} <!-classic Aquafleece-!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/106615">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "127720" %} <!-junior classic aquafleece top-!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/105299">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "143049" %} <!-pro aquafleece rigging coat-!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/106608">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "143053" %} <!-junior pro rigging coat  -!>
+  <p><strong>Adult Size alternatives Available: <a href="https://www.roostersailing.com/products/106249">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "143560" %} <!-Aquafleece hoodie-!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/139432">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "143563" %} <!-junior aquafleece hoodie-!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/139407">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "133933" %} <!-technical shorts -!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/139955">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "133932" %} <!-Junior technical shorts-!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/107540">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "142936" %} <!-rooster t-!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/141475">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "142953" %} <!-junior rooster t-!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/141467">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "146512" %} <!-Event hoodie-!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/147069">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "146511" %} <!- junior event hoodie-!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/146509">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "140813" %} <!-womens themraflex seagrass top-!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/140811">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "140811" %} <!- juior womens thermaflex sea grass top-!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/147072">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "140818" %} <!-womens thermaflex seagrass longj-!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/140812">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "140812" %} <!- junior women thermaflex eagrass longj-!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/147074">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "140804" %} <!-supertherm seagrass longj-!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/140798">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "140798" %} <!- junior supertherm seagrass-!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/147017">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "140799" %} <!-supertherm seagrass top-!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/140797">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "140797" %} <!- junior seagrass top-!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/147022">Click Here</a></strong></p>
+
+
+{% elsif current_product_sku == "131852" %} <!-Low Cut-!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/106647">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "131862" %} <!- junior Low cuts-!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/106530">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "131838" %} <!-All purpose-!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/106646">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "131850" %} <!- junior all purpose-!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/106529">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "133114" %} <!-Combi Glove-!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/139963">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "133111" %} <!- junior combi gloves-!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/107101">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "131446" %} <!-dura 2-!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/106363">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "131459" %} <!- junior dura 2-!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/106361">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "131451" %} <!-dura 5-!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/106364">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "131463" %} <!- junior dura 5-!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/106362">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "127778" %} <!-race 2-!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/106632">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "127774" %} <!- junior race 2-!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/105351">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "127786" %} <!-race 5-!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/106364">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "127783" %} <!- junior race 5-!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/106633">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "127571" %} <!-AQUAPRO-!>
+  <p><strong>Junior Size Alternative Available: <a href="https://www.roostersailing.com/products/106635">Click Here</a></strong></p>
+
+{% elsif current_product_sku == "127576" %} <!- junior aquapro-!>
+  <p><strong>Adult Size Alternatives Available: <a href="https://www.roostersailing.com/products/105354">Click Here</a></strong></p>
+{% else %}
+
+  <p></p>
+{% endif %}
